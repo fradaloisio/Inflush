@@ -2,8 +2,7 @@
 A bash script writes data in InfluxDB
 
 #USAGE
-./influ.sh -H="http://MY_INFLUX_SERVER" -U="user" -P="passowrd" -D="my_database" -M="my_measure" -f="field1=2,field2=5" -t="tag1=2,tag2=5"
-`
+**./influ.sh -H="http://MY_INFLUX_SERVER" -U="user" -P="passowrd" -D="my_database" -M="my_measure" -f="field1=2,field2=5" -t="tag1=2,tag2=5"**
 
 **-H** (--host) : Influx server
 
@@ -28,5 +27,3 @@ A bash script writes data in InfluxDB
 **-v** (--verbose) : Verbose
 
 **-o** (--output) : Print status code
-
-`
